@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E724BF741C776CC2001AD267 /* Dragon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E724BF731C776CC2001AD267 /* Dragon.swift */; };
+		E724BF761C777438001AD267 /* DragonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E724BF751C777438001AD267 /* DragonDetailViewController.swift */; };
 		E7D0083A1C74CC30007DABDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D008391C74CC30007DABDA /* AppDelegate.swift */; };
 		E7D0083C1C74CC30007DABDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D0083B1C74CC30007DABDA /* ViewController.swift */; };
 		E7D0083F1C74CC30007DABDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D0083D1C74CC30007DABDA /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E724BF731C776CC2001AD267 /* Dragon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dragon.swift; sourceTree = "<group>"; };
+		E724BF751C777438001AD267 /* DragonDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragonDetailViewController.swift; sourceTree = "<group>"; };
 		E7D008361C74CC30007DABDA /* dragonFashion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dragonFashion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D008391C74CC30007DABDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7D0083B1C74CC30007DABDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				E7D008401C74CC30007DABDA /* Assets.xcassets */,
 				E7D008421C74CC30007DABDA /* LaunchScreen.storyboard */,
 				E7D008451C74CC30007DABDA /* Info.plist */,
+				E724BF731C776CC2001AD267 /* Dragon.swift */,
+				E724BF751C777438001AD267 /* DragonDetailViewController.swift */,
 			);
 			path = dragonFashion;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E724BF761C777438001AD267 /* DragonDetailViewController.swift in Sources */,
 				E7D0083C1C74CC30007DABDA /* ViewController.swift in Sources */,
 				E7D0083A1C74CC30007DABDA /* AppDelegate.swift in Sources */,
+				E724BF741C776CC2001AD267 /* Dragon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +492,7 @@
 				E7D008601C74CC30007DABDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7D008611C74CC30007DABDA /* Build configuration list for PBXNativeTarget "dragonFashionTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				E7D008631C74CC30007DABDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7D008641C74CC30007DABDA /* Build configuration list for PBXNativeTarget "dragonFashionUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				E7D008661C74CC30007DABDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
